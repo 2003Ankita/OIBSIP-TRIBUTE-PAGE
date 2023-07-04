@@ -1,0 +1,51 @@
+body{
+    font-family:Arial,sams-serif;
+    margin:0;
+    padding:0px;
+    display:flex;
+    min-height:100vh;
+}
+/*#main{
+    max-width:800px;
+    margin:0 auto;
+    display:flex;
+}*/
+#biography{
+    padding:20px;
+    text-align:right; 
+    border-style: solid;
+    border-width:thick;
+    border-radius:5px;
+}
+#image-container{
+    flex:1;
+   background:url("m.jpg") no-repeat center center / cover;
+   height:890px;
+  
+}
+h1{
+    text-align:center;
+}
+p{
+    line-height:1.6;
+    margin-bottom:15px;
+}
+.quote{
+    font-style:italic;
+}
+.source{
+    text-align:right;
+}
+#content-container{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    background-color:grey;
+    padding:20px;
+}
+#content{
+   text-align:right;
+    padding:20px;
+}
